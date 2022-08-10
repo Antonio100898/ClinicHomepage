@@ -8,8 +8,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: {'max': '1023px'},
-      lg: '1024px'
+      sm: { max: '1023px' },
+      lg: '1024px',
     },
     colors: {
       dark: 'black',
@@ -61,8 +61,8 @@ module.exports = {
         'auto-1fr': 'auto 1fr',
       },
       zIndex: {
-        'bg': '-1'
-      }
+        bg: '-1',
+      },
     },
     fontSize: {
       xs: '16px',

@@ -70,7 +70,7 @@ const FooterContactsItem = ({
   }, [link, text, type])
   return (
     <div className="flex items-center gap-x-4 my-2">
-      <a href={itemLink} target="_blank" rel='noreferrer'>
+      <a href={itemLink} target="_blank" rel="noreferrer">
         <div className="flex items-center justify-center">
           <img className="w-[24px] h-[24px]" src={imagePath} />
         </div>

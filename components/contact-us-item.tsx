@@ -29,7 +29,7 @@ export default function ContactUsItem({
   }, [linkType])
   return (
     <div className="flex items-center lg:w-1/2 sm:w-7/12 gap-x-6">
-      <a href={link} target="_blank" rel='noreferrer'>
+      <a href={link} target="_blank" rel="noreferrer">
         <div className="bg-blue flex items-center justify-center rounded-[50%] w-[44px] h-[44px]">
           <img src={imagePath} />
         </div>

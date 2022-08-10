@@ -15,7 +15,6 @@ export async function getStaticProps({ locale }: NextPageContext) {
   }
 }
 
-
 export default function Home({ data }: HomePageType) {
   return (
     <>
