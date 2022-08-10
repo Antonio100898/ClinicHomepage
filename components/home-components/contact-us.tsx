@@ -6,6 +6,7 @@ import WhiteButton from '../data-components/white-button'
 import { WrapperLarge } from '../wrapper'
 
 export default function ContactUs({ data }: HomePageType) {
+  
   const { dir } = useLocale()
   return (
     <WrapperLarge

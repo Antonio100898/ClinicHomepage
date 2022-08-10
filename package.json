@@ -15,6 +15,7 @@
     "formik": "^2.2.9",
     "graphql": "^16.2.0",
     "graphql-request": "^3.7.0",
+    "netlify-cli": "^10.15.0",
     "next": "^12.1.0",
     "next-plugin-preval": "^1.2.4",
     "prettier": "^2.5.1",

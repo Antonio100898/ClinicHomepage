@@ -1,8 +1,6 @@
 export const Button = ({
   className,
-  type,
   text,
-  ...props
 }: {
   className?: string
   type?: string

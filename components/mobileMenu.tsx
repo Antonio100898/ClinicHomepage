@@ -1,4 +1,4 @@
-import { MobileMenuProps, NavBarProps } from '@/lib/interface'
+import { MobileMenuProps } from '@/lib/interface'
 import Languages from './languages'
 import NavLinks from './navLinks'
 

@@ -2,8 +2,6 @@
 import { useRouter } from 'next/router'
 
 export const ChangeLangButton = ({
-  className,
-  children,
   lang,
 }: {
   className?: string

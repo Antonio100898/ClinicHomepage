@@ -1,5 +1,3 @@
-import { Dispatch, SetStateAction } from 'react'
-
 export type HomePageType = {
   data: {
     homepage: Homepage
