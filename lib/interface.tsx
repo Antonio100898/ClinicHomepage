@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from 'react'
+
 export type HomePageType = {
   data: {
     homepage: Homepage
@@ -57,6 +59,13 @@ export type Common = {
   footerContactUsTitle: string
   footerScheduleButton: string
   footerSupportUsButton: string
+  contactUsFormErrorFirstNameMissing: string
+  contactUsFormErrorLastNameMissing: string
+  contactUsFormErrorEmailMissing: string
+  contactUsFormErrorEmailInvalid: string
+  contactUsFormErrorPhoneMissing: string
+  contactUsFormErrorPhoneInvalid: string
+  contactUsFormErrorMessageMissing: string
 }
 
 export function HOMEPAGE_QUERY(locale: string) {
@@ -129,3 +138,57 @@ common(locale: ${locale}) {
   footerSupportUsButton
 }
 `
+export type NavLinksProps = {
+  navLinks: Array<{
+    text: string
+    relativeLink: string
+  }>
+}
+export type NavBarProps = {
+  appLinks: Array<{
+    text: string
+    relativeLink: string
+  }>
+  languageNames: {
+    am: string
+    ar: string
+    en: string
+    he: string
+    ti: string
+  }[]
+}
+export type MobileMenuProps = {
+  appLinks: Array<{
+    text: string
+    relativeLink: string
+  }>
+  languageNames: {
+    am: string
+    ar: string
+    en: string
+    he: string
+    ti: string
+  }[]
+  open: boolean
+}
+export type LanguagesProps = {
+  languageNames: {
+    am: string
+    ar: string
+    en: string
+    he: string
+    ti: string
+  }[]
+}
+export type WhatWeDoCards = {
+  title: string
+  text: string
+  imagePath: string
+}[]
+export interface FormValues {
+  firstName?: string
+  lastName?: string
+  email?: string
+  phone?: string
+  more?: string
+}

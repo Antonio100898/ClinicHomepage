@@ -1,3 +1,13 @@
-export const PageHeader = ({ children }: { children: string }) => {
-  return <h1 className="font-bold text-xl">{children}</h1>
+export const PageHeader = ({
+  children,
+  className,
+}: {
+  children: string
+  className?: string
+}) => {
+  return (
+    <h1 className={`${className} font-bold lg:text-3xl sm:text-xl`}>
+      {children}
+    </h1>
+  )
 }

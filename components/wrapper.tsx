@@ -1,15 +1,21 @@
 import { ReactNode } from 'react'
 
 export const Wrapper = ({ children }: { children: ReactNode }) => {
-  return <div className="max-w-screen-md">{children}</div>
+  return <div className="">{children}</div>
 }
 
 export function WrapperLarge({
   children,
   className = '',
+  id,
 }: {
   children: React.ReactNode
   className?: string
+  id?: string
 }) {
-  return <section className={`grid ${className}`}>{children}</section>
+  return (
+    <section id={id} className={`grid ${className}`}>
+      {children}
+    </section>
+  )
 }
