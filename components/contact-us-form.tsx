@@ -68,7 +68,7 @@ export default function ContactUsForm({ data }: { data: Common }) {
       {({ errors, touched, handleSubmit }) => (
         <form
           onSubmit={handleSubmit}
-          className="bg-light rounded-[36px] shadow-4xl lg:w-7/12 gap-x-4 sm:px-8 lg:grid sm:py-4 sm:mt-16  lg:grid-cols-2 lg:px-10 lg:py-14"
+          className="bg-light rounded-[36px] shadow-4xl md:w-10/12 lg:w-7/12 gap-x-4 px-8 lg:grid sm:py-4 sm:mt-16 sm:grid-cols-1 grid-cols-2 lg:px-10 md:py-14 lg:py-14"
         >
           <FormInput
             label={contactUsFormFirstName}

@@ -6,12 +6,11 @@ import WhiteButton from '../data-components/white-button'
 import { WrapperLarge } from '../wrapper'
 
 export default function ContactUs({ data }: HomePageType) {
-  
   const { dir } = useLocale()
   return (
     <WrapperLarge
       id="contact-us"
-      className="lg:grid-cols-2 sm:grid-cols-1 lg:py-36 sm:px-4 sm:pb-10 relative"
+      className="grid-cols-2 sm:grid-cols-1 md:py-36 lg:py-36 sm:px-4 sm:pb-10 relative"
     >
       <div className="absolute bg-contact-bg w-full lg:h-2/3 sm:h-1/2 bottom-0 z-bg"></div>
       <img className="absolute left-0 bottom-0 z-bg" src="circle-bottom.svg" />
@@ -20,8 +19,8 @@ export default function ContactUs({ data }: HomePageType) {
         src="circle-right.svg"
       />
       <div
-        className={`lg:w-6/12 lg:mt-48 ${
-          dir === 'rtl' ? 'lg:mr-60' : 'lg:ml-60'
+        className={`lg:w-6/12 md:w-6/12 lg:mt-48 ${
+          dir === 'rtl' ? 'lg:mr-[20%] md:mr-[20%]' : 'lg:ml-[20%] md:ml-[20%]'
         }`}
       >
         <WhiteButton className="text-medium lg:font-bold sm:px-0">

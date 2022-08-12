@@ -33,10 +33,9 @@ export default function Layout({ children, pageProps }: any) {
             height: 100%;
           }
           .app-wrapper {
-            display: grid;
+            display: flex;
             flex-direction: column;
             min-height: -webkit-fill-available;
-            height: 100%;
           }
           *:focus-visible {
             outline: none !important;

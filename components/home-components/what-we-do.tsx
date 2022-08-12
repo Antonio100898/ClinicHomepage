@@ -8,7 +8,7 @@ import { WrapperLarge } from '../wrapper'
 export default function WhatWeDo({ data }: HomePageType) {
   const { dir } = useLocale()
   return (
-    <WrapperLarge className="lg:text-center pt-20 sm:pb-10 text-lg">
+    <WrapperLarge className="lg:text-center md:text-center pt-20 sm:pb-10 text-lg">
       <h2
         className={`${
           dir === 'rtl' ? 'sm:pr-4' : 'sm:pl-4'
@@ -19,12 +19,13 @@ export default function WhatWeDo({ data }: HomePageType) {
       <PageHeader className="sm:hidden">
         {data.homepage.whatWeDoTitle}
       </PageHeader>
-      <div className="lg:px-44 lg:my-10 lg:flex justify-evenly sm:hidden">
+
+      <div className="md:my-10 lg:my-10 flex justify-center gap-x-6 sm:hidden">
         {data.homepage.whatWeDoCards.map((card) => (
           <WhatWeDoCard key={card.title} card={card} />
         ))}
       </div>
-      <div className="lg:hidden pt-4">
+      <div className="lg:hidden md:hidden pt-4">
         <SlidesCarousel cards={data.homepage.whatWeDoCards} />
       </div>
     </WrapperLarge>

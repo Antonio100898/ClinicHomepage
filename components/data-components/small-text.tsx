@@ -5,5 +5,5 @@ export default function Paragraph({
   children: string
   className?: string
 }) {
-  return <p className={`${className} text-s`}>{children}</p>
+  return <p className={`${className} text-s md:text-xs`}>{children}</p>
 }

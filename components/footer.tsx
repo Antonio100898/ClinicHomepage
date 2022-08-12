@@ -14,7 +14,7 @@ export default function Footer({ data }: CommonType) {
         className="bg-light gap-6 grid items-center justify-items-center md:grid-cols-2 lg:grid-cols-4 sm:cols-1 lg:px-60 lg:py-28 sm:py-10"
       >
         <div className="lg:justify-self-stretch">
-          <img className="lg:w-full sm:w-[200px]" src="logo.svg" />
+          <img className="w-full sm:w-[200px]" src="logo.svg" />
         </div>
         <div className="flex flex-col">
           <WhiteButton className="font-bold text-xs m-1" border>

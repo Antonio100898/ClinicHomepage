@@ -14,7 +14,7 @@ export default function WhatWeDoCard({
   const { dir } = useLocale()
   const { imagePath, text, title } = card
   return (
-    <div className="rounded-[30px] shadow-4xl lg:w-[340px] sm:mx-4 h-[480px] overflow-hidden">
+    <div className="rounded-[30px] shadow-4xl md:w-[20%] lg:w-[340px] sm:mx-4 h-[480px] overflow-hidden">
       <div className="bg-contact-bg flex justify-center h-1/2">
         <img className="w-1/3" src={imagePath} />
       </div>

@@ -6,7 +6,7 @@ export default function Heading({
   className?: string
 }) {
   return (
-    <h2 className={`${className} text-blue lg:text-lg sm:text-medium`}>
+    <h2 className={`${className} text-blue text-lg sm:text-medium`}>
       {children}
     </h2>
   )

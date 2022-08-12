@@ -10,7 +10,7 @@ export default function Banner({ data }: HomePageType) {
         <div className="background"></div>
         <div className="lg:w-[40%] flex flex-col items-center text-center sm:px-4">
           <PageHeader>{data.homepage.title}</PageHeader>
-          <div className="lg:text-lg sm:text-medium lg:w-1/2 sm:w-5/6">
+          <div className="lg:text-lg text-medium w-1/2 sm:w-5/6">
             {data.homepage.description}
           </div>
           <BlueButton className="mt-20 text-lg">
@@ -51,6 +51,8 @@ export default function Banner({ data }: HomePageType) {
           }
           .img {
             position: absolute;
+            width: 15%;
+            min-width: 15vw;
           }
         `}</style>
       </div>

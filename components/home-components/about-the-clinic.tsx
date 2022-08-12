@@ -8,14 +8,14 @@ export default function AboutTheClinic({ data }: HomePageType) {
   return (
     <WrapperLarge
       id="about-us"
-      className="lg:grid-cols-2 sm:grid-cols-1 lg:p-20 sm:px-5"
+      className="grid-cols-2 sm:grid-cols-1 lg:p-20 md:p-20 sm:px-5"
     >
-      <div className="justify-self-end sm:py-10">
+      <div className="justify-self-end sm:justify-self-center sm:py-10">
         <img src="love-hands.svg" />
       </div>
-      <div className="lg:p-10 grid grid-cols-1  lg:w-2/3">
+      <div className="lg:p-10 md:p-10 grid grid-cols-1 lg:w-2/3">
         <Heading>{data.homepage.aboutHeading}</Heading>
-        <p className="lg:text-2xl sm:text-[36px] font-bold">
+        <p className="text-2xl sm:text-[36px] font-bold">
           {data.homepage.aboutTitle}
         </p>
         <Paragraph>{data.homepage.aboutUsText}</Paragraph>

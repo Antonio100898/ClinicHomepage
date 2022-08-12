@@ -10,8 +10,8 @@ export async function getStaticProps({ locale }: NextPageContext) {
   const data = await request({
     query: HOMEPAGE_QUERY(locale as string),
   })
-  console.log(data);
-  
+  console.log(data)
+
   return {
     props: { data },
   }
