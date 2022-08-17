@@ -1,5 +1,6 @@
 This is a Clinic Homepage with fully responsive design.
 Tools: 
+ - Typescript
  - Next.js
  - GraphQL
  - TailwindCSS
