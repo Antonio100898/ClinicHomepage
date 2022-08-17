@@ -3,6 +3,7 @@ Tools:
  - Next.js
  - GraphQL
  - TailwindCSS
+
 The Homepage language can be changed between English and Hebrew
 Building this web page was my task for OneZero company (Israel) and it using GraphQL to fetch data for this page form backend they developed. 
 I was need to build the UI using these queries.!
