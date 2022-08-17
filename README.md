@@ -5,8 +5,11 @@ Tools:
  - TailwindCSS
 
 The Homepage language can be changed between English and Hebrew
-Building this web page was my task for OneZero company (Israel) and it using GraphQL to fetch data for this page form backend they developed. 
-I was need to build the UI using these queries.
+
+Building this web page was my task for OneZero company (Israel) and it using GraphQL to fetch data for this page form backend they developed
+ 
+I was need to build the UI using these queries
+
 Deployed on Netlify: https://62fca0cdd96ac5797d0447fd--lucky-malasada-3cb5c4.netlify.app/
 
 ![Clinic1](https://user-images.githubusercontent.com/99435115/185066400-2ba907f3-95bd-4872-bf3b-ecf04354b96b.PNG)
